@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+  .main
+    h1 The Fluencia Intern Blog
+
+    each post in records
+      h2
+        a(href="/posts/#{post._id}")= post.title
+      .author= post.author
+      p= post.content
