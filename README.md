@@ -47,13 +47,14 @@ technologies being used:
 * Express - This is the web application framework we use to build the web app. It follows a pattern called MVC which stand for Model, View, Controller. It may be helpful to do a quick read on what MVC is.
 * Jade - These are the views in our MVC framework. You will notice all of the files in the view folder end with ".jade". These are the templates that express uses to dynamically generate html files.
 
-
 ## TODOs
 
 The project is pretty bare bones right now. Here are some tasks we would like you to complete.
 
 1. Currently the links for the blog return an error. We would like you to create a new route to respond to these links with the correct blog post for the id specified in the url.
 2. In addition to the Post model you used in the last task, there is also a Comment model. Update your new route to also display all of the comments associated with a blog entry.
+4. On the same page you are working on we want to add a "Up Vote" feature to a blog post. Each post page should show the number of votes and allow a user to up vote a post. This feature should use ajax to send a
+request in the background and then update the vote count on the page. You may want to research jquery.post or jquery.ajax.
 3. On the same page you have been working on create a form to add new comments. The form should use ajax to send the new comment to the server then update the page on success.
 
 
