@@ -1,0 +1,18 @@
+[{
+  "_id": 1,
+  "title": "First Blog Post",
+  "author": "Mike Miller",
+  "content": "Welcome to Fluencia."
+},
+{
+  "_id": 2,
+  "title": "Second Blog Post",
+  "author": "mmilleruva",
+  "content": "This is the second post"
+},
+{
+  "_id": 3,
+  "title": "Third Post",
+  "author": "mike@spanishdict.com",
+  "content": "The third post"
+}]

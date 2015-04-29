@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightgrey;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*Nav Bar*/
+.nav-bar {
+  background-color: lightblue;
+  box-shadow: 0px 3px 5px #888888;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+}
+
+.nav {
+  list-style: none;
+  height: 40px;
+  display: table-row;
+}
+
+.nav-item {
+  display: table-cell;
+  width: 100px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  background-color: blue;
+}
+
+
+/*Main Content*/
+.main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 20px;
+  padding-top: 60px;
+  min-height: 1000px;
+}
+
+.author {
+  font-style: italic;
+}
+
+/*Utility*/
+.content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
